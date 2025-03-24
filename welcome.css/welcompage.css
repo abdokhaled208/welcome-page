@@ -1,0 +1,154 @@
+
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #b8b6b6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-size: cover;
+    }
+    
+    .container {
+        width: 90%;
+        max-width: 900px;
+        height: auto;
+        text-align: center;
+        background-color: #dbd9d9;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.941);
+    }
+    
+    /* Navbar */
+    .lists {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        position: relative;
+        top: 90px;
+
+    }
+    
+    .lists a {
+        padding: 10px;
+        color: black;
+        font-size: 13px;
+        background-color: #b9ccec;
+        text-decoration: none;
+        border-radius: 10px;
+        font-size: 20px;
+
+    }
+    
+
+    
+    /* Images */
+    .image1 img {
+        width: 220px;
+        max-width: 100%;
+        margin: auto;
+        position: relative;
+        top: 70px;
+    }
+    
+    .image2 {
+        width: 100%;
+        max-width: 360px;
+        margin: auto;
+    }
+    
+    /* Paragraph */
+    p {
+        color: #000000c9;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: italic;
+        font-size: 19px;
+        text-align: center;
+    }
+    
+    /* Horizontal lines */
+    hr {
+        height: 2px;
+        width: 40%;
+        background-color: #007BFF;
+        margin: auto;
+    }
+    
+    .hr2 {
+        height: 1px;
+        width: 40%;
+        background-color: #007BFF;
+        margin: auto;
+    }
+    
+    /* Buttons */
+    .button, .buttons {
+        margin: 10px;
+        padding: 10px 20px;
+        background-color: #007BFF;
+        color: white;
+        text-decoration: none;
+        border-radius: 100px;
+        display: inline-block;
+        text-align: center;
+        transition: 0.3s;
+    }
+    
+    .button:hover, .buttons:hover {
+        background-color: white;
+        color: #779cdd;
+    }
+    
+    /* Responsive Design */
+    @media screen and (max-width: 768px) {
+        .container {
+            width: 95%;
+            height: auto;
+        }
+    
+        .lists {
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            top: 130px;
+            right: 20px;
+        }
+    
+        .lists a {
+            width: 25%;
+            text-align: center;
+            font-size: 12px;
+            margin: -4px;
+            
+        }
+    
+        p {
+            font-size: 16px;
+        }
+    
+        hr, .hr2 {
+            width: 80%;
+        }
+    
+        .button, .buttons {
+            width: 20%;
+        }
+    }
+    
+    @media screen and (max-width: 480px) {
+        p {
+            font-size: 14px;
+        }
+    
+        .image1 img {
+            width: 100px;
+        }
+    
+        .button, .buttons {
+            font-size: 12px;
+            padding: 8px 15px;
+        }
+    }
+    
