@@ -1,4 +1,3 @@
-
     body {
         margin: 0;
         font-family: Arial, sans-serif;
@@ -126,6 +125,11 @@
         p {
             font-size: 16px;
         }
+        .image1 img {
+            width: 50%;
+            margin-bottom: 36px;
+        }
+    
     
         hr, .hr2 {
             width: 80%;
@@ -141,12 +145,12 @@
             font-size: 14px;
         }
     
-     .image1 img {
+        .image1 img {
             width: 100px;
             position: relative;
             bottom: 25px;
         }
-        
+    
         .button, .buttons {
             font-size: 12px;
             padding: 8px 15px;
