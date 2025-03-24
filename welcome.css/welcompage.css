@@ -141,7 +141,12 @@
             font-size: 14px;
         }
     
-    
+     .image1 img {
+            width: 100px;
+            position: relative;
+            bottom: 25px;
+        }
+        
         .button, .buttons {
             font-size: 12px;
             padding: 8px 15px;
